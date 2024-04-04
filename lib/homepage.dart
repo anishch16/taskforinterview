@@ -72,6 +72,49 @@ class _MyHomePageState extends State<MyHomePage> {
                       borderRadius: BorderRadius.circular(12),
                       splashColor: Colors.black.withOpacity(0.4),
                       onTap: () {
+                        // Get.rawSnackbar(
+                        //   borderRadius: 1,
+                        //   snackPosition: SnackPosition.TOP,
+                        //   snackStyle: SnackStyle.FLOATING,
+                        //   animationDuration: const Duration(milliseconds: 300),
+                        //   forwardAnimationCurve: Curves.elasticIn,
+                        //   reverseAnimationCurve: Curves.elasticIn,
+                        //   isDismissible: true,
+                        //   dismissDirection: DismissDirection.horizontal,
+                        //
+                        //   // title,
+                        //   message: "Data is fetched",
+                        //   // icon: const Icon(Icons.info),
+                        //   // titleText: Text(
+                        //   //   title,
+                        //   //   style: Get.textTheme.titleMedium!
+                        //   //       .copyWith(color: Get.theme.colorScheme.onPrimary),
+                        //   // ),
+                        //   duration: const Duration(seconds: 2),
+                        //   // mainButton: TextButton.icon(
+                        //   //   onPressed: () => Get.back(),
+                        //   //   icon: const Icon(
+                        //   //     Icons.cancel,
+                        //   //     color: SColors.white,
+                        //   //   ),
+                        //   //   label: const Text(''),
+                        //   // ),
+                        //   messageText: Text(
+                        //     "Data is fetched",
+                        //     maxLines: 4,
+                        //     style: Get.textTheme.bodyMedium!
+                        //         .copyWith(color: Get.theme.colorScheme.onPrimary),
+                        //   ),
+                        //   // borderRadius: 12,
+                        //   // borderWidth: 2,
+                        //   borderColor: Colors.red.withOpacity(0.8),
+                        //   barBlur: 1,
+                        //   // snackStyle: SnackStyle.GROUNDED,
+                        //   // overlayColor: SColors.white,
+                        //   // colorText: SColors.white,
+                        //   // snackPosition: SnackPosition.BOTTOM,
+                        //   backgroundColor: Colors.blue,
+                        // );
                         viewModel.fetchAlbum();
                       },
                       child: Container(
